@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.banner
+{
+	height: 109px;
+	background:url(images/headerbg.png) repeat-x ; 
+}
+.logo
+{
+
+	float:left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.banner .banner_buttons
+{
+	margin-left: 5px;
+	float:left;
+	position: relative;
+	
+}
+.banner .banner_button
+{
+	margin: 10px;
+	
+}
+.banner .banner_buttons .banner_button_text
+{
+	margin-top: 10px;
+	font-size: 20px;
+	white-space: nowrap;
+	opacity: 0.8;
+	text-align: center;
+	font-style: italic;
+}
+.wrap
+{
+	margin: 0 auto;
+	max-width: 1000px;
+ 	min-width:990px;
+	font-family: DFKai-sb;
+	color: #686b70;
+}
+.things_info{
+
+	width: 600px;
+	margin-left: 30px;
+	float: left;
+	
+}
+.things_info h2{
+	margin-bottom: 10px;
+}
+.things_info a{
+	color: #358AF2;
+	font-size:25px;  
+	text-decoration:underline;
+	cursor: pointer;
+}
+.things_img{
+	float: right;    
+	box-shadow: #999 -3px 10px 20px;  
+	position: relative;  
+}
+.things_img span{
+	position: absolute;
+	top:190px;
+	 
+}
+.things_name{
+	left:30px;
+}
+.things_price{
+	left:200px;
+}
+.footer {
+	height: 500px;
+	margin-top: 300px;
+}
+.footer>div{
+	width: 280px;
+	height: 320px;
+	float:left;
+	background-image: linear-gradient(0deg, #A8D3FA, #fff);
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 42px;
+	border-top-color:#A8D3FA; 
+	border-top-style:dotted; 
+	border-top-width:1px; 
+	
+}
+.footer h3{
+	font-size:20px;
+	font-weight: 900;
+	margin-bottom: 10px
+}
+.footer p{
+	margin-left: 10px;
+	font-size:14px;
+}
+.footer a{
+	display: block;
+	margin-left: 56px;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+.product_1 a{
+	background: url(../images/product-1.png) ;
+	height:149px;
+	width: 169px;
+	
+	
+}
+.product1_info h3{
+	margin-left:30px;
+}
+.product_2 a{
+	background: url(../images/product-2.png);
+	height:149px;
+	width: 140px;
+}
+.product2_info h3{
+	margin-left:25px;
+}
+.product_3 a{
+	background: url(../images/product-3.png);
+	height:149px;
+	width: 140px;
+}
+.product3_info h3{
+	margin-left:100px;
+}
+.product_3 img{
+	margin-left: 98px;
+}
+li
+{
+	list-style:none;
+}
